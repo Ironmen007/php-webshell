@@ -2,7 +2,7 @@
 php webshell
 
 # 简介 #
-php写的webshell程序
+网上找到的webshell程序，有后门，仅供本地环境学习使用，勿上传到真实服务器
 
 # 使用 #
 只需要一个文件即可：
