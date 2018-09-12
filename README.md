@@ -12,10 +12,13 @@
 
 
 2. **strrev**  
-网站空间上收集到的免杀webshell  
+网站空间上收集到的免杀webshell，功能较为简单，能上传下载文件、列出目录等  
 shell.php  -  源程序  
 shell_real.php  -  个人还原并加注释的真实代码  
 
+
+2. **httpcopy**  
+文件传输型webshell，不免杀，能被百度webshell扫描识别为网站后门，未详细分析
 
 
 
