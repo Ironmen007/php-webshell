@@ -1,13 +1,23 @@
 # webshell
-php webshell
+1. 个人收集到的多个php免杀后门webshell，用于学习webshell免杀技术  
+2. 这些webshell源程序，经过测试可以免杀[百度webshell扫描](https://scanner.baidu.com/#/pages/intro)、阿里云盾等
+3. 不同webshell在项目根目录下以单独目录形式存放
 
-# 简介 #
-网上找到的webshell程序，有后门，仅供本地环境学习使用，勿上传到真实服务器
+## 列表 ##
+1. **webshell8**  
+[http://webshell8.com/](http://webshell8.com/)下载到的免杀webshell，有后门，谨慎上传到线上服务器  
+/dist	webshell程序发布目录，去除后门的二次发布目录  
+/src	源码 
 
-# 使用 #
-只需要一个文件即可：
-/dist/webshell.php
 
-# 项目结构 #
-- /dist	webshell程序发布目录
-- /src	源码以及免杀剖析（免杀文件为/src/webshell，其余为一步步剖析分解）
+
+2. **strrev**  
+网站空间上收集到的免杀webshell  
+shell.php  -  源程序  
+shell_real.php  -  个人还原并加注释的真实代码  
+
+
+
+
+
+
