@@ -6,9 +6,9 @@
 ## 列表 ##
 1. **webshell8**  
 [http://webshell8.com/](http://webshell8.com/)下载到的免杀webshell，有后门，谨慎上传到线上服务器  
-/dist	webshell程序发布目录，去除后门的二次发布目录  
-/src	源码 
-
+/dist   -    webshell程序发布目录，去除后门的二次发布目录  
+/src    -    源码  
+/src/ext  -  被shell.php后门感染后自动在网站根目录生成的webshell样本
 
 
 2. **strrev**  
