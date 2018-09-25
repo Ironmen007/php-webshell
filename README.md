@@ -21,6 +21,3 @@ shell_real.php  -  还原并加注释的真实代码
 文件传输型webshell，不免杀，能被百度webshell扫描识别为网站后门，未详细分析
 
 
-
-
-
